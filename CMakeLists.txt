@@ -312,6 +312,9 @@ else (build_errors)
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/cmake/pkgconfig/${pkgconfig}.pc DESTINATION ${LIB_INSTALL_DIR}/pkgconfig COMPONENT pkgconfig)
   endforeach()
 
+  # Install catkin package.xml
+  install(FILES package.xml DESTINATION share/gazebo)
+
   ########################################
   # If present, load platform-specific build hooks.  This system is used,
   # for example, by the Ubuntu overlay (in the gazebo-release repo), to
