@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package>
+  <name>gazebo</name>
+  <version>:{version}</version>
+  <description>Gazebo is a multi-robot simulator for outdoor environments. Like Stage, it is capable of simulating a population of robots, sensors and objects, but does so in a three-dimensional world. It generates both realistic sensor feedback and physically plausible interactions between objects (it includes an accurate simulation of rigid-body physics).</description>
+  <license>Apache 2.0</license>
+
+  <url type="website">http://gazebosim.org/</url>
+  <url type="repository">https://bitbucket.org/osrf/gazebo</url>
+  <url type="bugtracker">https://bitbucket.org/osrf/gazebo/issues</url>
+
+  <maintainer email="nate@osrfoundation.org">Nate Koenig</maintainer>
+
+  <author email="nate@osrfoundation.org">Nate Koenig</author>
+  <author email="hsu@osrfoundation.org">John Hsu</author>
+  <author email="dolha@cs.tum.edu">Mihai Dolha</author>
+  <author email="ahoward@usc.edu">Andrew Howard</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>pkg-config</buildtool_depend>
+
+  <build_depend>libogre-dev</build_depend>
+  <build_depend>protobuf-dev</build_depend>
+  <build_depend>libtool</build_depend>
+  <build_depend>fltk</build_depend>
+  <build_depend>libxml2</build_depend>
+  <build_depend>yaml</build_depend>
+  <build_depend>tinyxml</build_depend>
+  <build_depend>libqt4-dev</build_depend>
+  <build_depend>libqt4-opengl-dev</build_depend>
+  <build_depend>tbb</build_depend>
+  <build_depend>urdfdom</build_depend>
+  <build_depend>urdfdom_headers</build_depend>
+  <build_depend>console_bridge</build_depend>
+  <build_depend>curl</build_depend>
+  <build_depend>tar</build_depend>
+  <build_depend>freeimage</build_depend>
+
+  <run_depend>libogre-dev</run_depend>
+  <run_depend>protobuf-dev</run_depend>
+  <run_depend>libtool</run_depend>
+  <run_depend>fltk</run_depend>
+  <run_depend>libxml2</run_depend>
+  <run_depend>yaml</run_depend>
+  <run_depend>tinyxml</run_depend>
+  <run_depend>libqt4-dev</run_depend>
+  <run_depend>libqt4-opengl-dev</run_depend>
+  <run_depend>tbb</run_depend>
+  <run_depend>urdfdom</run_depend>
+  <run_depend>urdfdom_headers</run_depend>
+  <run_depend>console_bridge</run_depend>
+  <run_depend>curl</run_depend>
+  <run_depend>tar</run_depend>
+  <run_depend>freeimage</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+
+  </export>
+</package>
