@@ -1,4 +1,4 @@
-From 288f43aa80bb4ecbbc638a9dcf68bc7cb8f0dc00 Mon Sep 17 00:00:00 2001
+From 79db1319fe818f238566edcd7c78e3299b2e9bce Mon Sep 17 00:00:00 2001
 From: William Woodall <wjwwood@gmail.com>
 Date: Tue, 12 Mar 2013 11:15:36 -0700
 Subject: [PATCH] Install package.xml
