@@ -1,4 +1,4 @@
 repo: e803bb5fe03c1370cbb9f434912cd73fd1e7942d
-node: fa08af4f1e7a315818dc9a8f13c28d140d23a638
-branch: gazebo_1.5
-tag: gazebo_1.5.0
+node: caee1225bc19b9257a52c4eea10d981b817f4512
+branch: gazebo_1.8
+tag: gazebo_1.8.6
