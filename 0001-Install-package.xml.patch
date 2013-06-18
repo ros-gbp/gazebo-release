@@ -1,10 +1,10 @@
-From 79db1319fe818f238566edcd7c78e3299b2e9bce Mon Sep 17 00:00:00 2001
+From dda42b80b56bf8136049bccbab2648a573a48551 Mon Sep 17 00:00:00 2001
 From: William Woodall <wjwwood@gmail.com>
 Date: Tue, 12 Mar 2013 11:15:36 -0700
 Subject: [PATCH] Install package.xml
 
 ---
- CMakeLists.txt | 3 +++
+ CMakeLists.txt |    3 +++
  1 file changed, 3 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -22,5 +22,5 @@ index 129b83d..f3c4d84 100644
    # If present, load platform-specific build hooks.  This system is used,
    # for example, by the Ubuntu overlay (in the gazebo-release repo), to
 -- 
-1.7.12.4 (Apple Git-37)
+1.7.9.5
 
