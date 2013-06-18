@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>gazebo</name>
-  <version>1.5.0</version>
+  <version>1.8.6</version>
   <description>Gazebo is a multi-robot simulator for outdoor environments. Like Stage, it is capable of simulating a population of robots, sensors and objects, but does so in a three-dimensional world. It generates both realistic sensor feedback and physically plausible interactions between objects (it includes an accurate simulation of rigid-body physics).</description>
   <license>Apache 2.0</license>
 
